@@ -5,7 +5,7 @@ import { Row, Col, ListGroup, Image, Form, Button, Card } from 'react-bootstrap'
 import Message from '../components/Message'
 import { addToCart, removeFromCart } from '../actions/cartActions'
 
-const CartScreen = ({ match, location, history }) => {
+const PropertyValuationServiceScreen = ({ match, location, history }) => {
   const productId = match.params.id
 
   const qty = location.search ? Number(location.search.split('=')[1]) : 1
@@ -32,14 +32,8 @@ const CartScreen = ({ match, location, history }) => {
   return (
     <Row>
       <Col md={12}>
-        <h1>About the Company</h1>
+        <h1>Valuation Service</h1>
 
-        <p>Property PNG Limited is a PNG owned Property Valuation and Consultancy Practice.</p>
-
-        <p>The Company was incorporated on 23rd February, 2010. The company provides independent property valuation and real estate consultancy services to meet the individual requirements of each client.
-
-          Property PNG Ltd specialises in a diverse range of property valuation transactions and it is dedicated to providing a prompt and professional service. To ensure this commitment, the Company ensures compliance to International Valuation Standards and Generally Accepted Valuation Principles.
-        </p>
         <p>
           <h3>Services</h3>
           Our property valuation service covers Residential, Commercial and Industrial property and these include:-
@@ -87,4 +81,4 @@ const CartScreen = ({ match, location, history }) => {
   )
 }
 
-export default CartScreen
+export default PropertyValuationServiceScreen

@@ -18,6 +18,13 @@ import UserEditScreen from './screens/UserEditScreen'
 import ProductListScreen from './screens/ProductListScreen'
 import ProductEditScreen from './screens/ProductEditScreen'
 import OrderListScreen from './screens/OrderListScreen'
+import ContactScreen from './screens/ContactScreen'
+import EmailScreen from './screens/EmailScreen'
+import PropertyValuationServiceScreen from './screens/PropertyValuationServiceScreen'
+import PropertyValuersScreen from './screens/PropertyValuersScreen'
+
+
+
 
 const App = () => {
   return (
@@ -29,6 +36,12 @@ const App = () => {
           <Route path='/shipping' component={ShippingScreen} />
           <Route path='/payment' component={PaymentScreen} />
           <Route path='/placeorder' component={PlaceOrderScreen} />
+          <Route path='/contacts' component={ContactScreen} />
+          <Route path='/email' component={EmailScreen} />
+          <Route path='/propertyservice' component={PropertyValuationServiceScreen} />
+          <Route path='/propertyvaluers' component={PropertyValuersScreen} />
+
+
           <Route path='/login' component={LoginScreen} />
           <Route path='/register' component={RegisterScreen} />
           <Route path='/profile' component={ProfileScreen} />
