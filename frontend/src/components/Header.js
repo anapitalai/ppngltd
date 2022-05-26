@@ -26,7 +26,7 @@ const Header = () => {
           <LinkContainer to='/'>
             <Navbar.Brand>
               <Image id="logo" src="../PPNGL.webp" roundedCircle responsive fluid alt="Logo" />
-              <span className='px-3' >PPNGLTD</span>
+              <span className='px-3'>PPNGLTD</span>
             </Navbar.Brand>
 
 
