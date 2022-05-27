@@ -3,7 +3,6 @@ import React from 'react'
 const VaccantlandScreen = () => {
     return (
 
-        // <img id="" src="land.png" rounded responsive fluid alt="Logo" />
 
         <p>
             Property PNG valuers can assist you with vacant land (be it residential, industrial or commercial) valuation in

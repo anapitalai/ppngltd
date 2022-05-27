@@ -3,7 +3,6 @@ import React from 'react'
 const OtherservicesScreen = () => {
     return (
         
-
         <div>
             <img id="" src="https://media.istockphoto.com/photos/aerial-view-of-residential-distratic-at-major-mackenzie-dr-and-ave-picture-id1320991884?b=1&k=20&m=1320991884&s=170667a&w=0&h=N79xaO8j11u7tRWG7RCy8ksCkdTgujeFLFpXR_guaa0=" rounded responsive fluid alt="Logo" />
             
@@ -20,7 +19,8 @@ const OtherservicesScreen = () => {
            <p> The team will make conveyancing processing as easy as
             possible.If you have and questionsor would like  a quotes
             please reach out to us via email <email>support@obsidsianconveryancing.com</email> or
-            by calling us directly on <telephone>(+765) 341 6467</telephone></p>
+            by calling us directly on  <a href="tel:+675 731 349 91">+675 73134991</a></p>
+            <a href="mailto: email@example.com"> Click here to send me an email</a>
         </div>
     )
 }

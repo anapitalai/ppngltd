@@ -53,24 +53,20 @@ const AboutScreen = ({ match, location, history }) => {
 
           The Company was incorporated on 23rd February, 2010. The company provides independent property valuation and real estate consultancy services to meet the individual requirements of each client.
 
+        </p>
+        <p>
+          {
+            services.map(service =>
+              <div>&#10004;{service}</div>
+            )
+          }
+        </p>
+        <p>
           Property PNG Ltd specialises in a diverse range of property valuation transactions and it is dedicated to providing a prompt and professional service. To ensure this commitment,
           the Company ensures compliance to International Valuation Standards and Generally Accepted Valuation Principles.
-
-
           Compensation Assessments
           We can provide compensation assessments for compulsory acquisitions for Private Individuals and Government Authorities and Corporations.
-
         </p>
-
-        {
-          services.map(service =>
-            <Card style={{ width: '18rem' }}>
-            <ListGroup variant="flush">
-              <ListGroup.Item>{service}</ListGroup.Item>
-            </ListGroup>
-          </Card>
-          )
-        }
 
       </Col>
 

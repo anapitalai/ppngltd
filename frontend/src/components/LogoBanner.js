@@ -24,7 +24,8 @@ const LogoBanner = () => {
 
                         <LinkContainer to='/email'>
                             <Nav.Link>
-                                <i className='fas fa-shopping-cart'></i> Call (+675) 5333218
+                                <i className='fas fa-phone'></i> <span>Call (+675) 3416368</span>
+                     
                             </Nav.Link>
                         </LinkContainer>
 
