@@ -20,95 +20,41 @@ const Header = () => {
   return (
     <header>
       {/* bg='myred' */}
-      <Navbar bg='dark' variant='dark' expand='lg' collapseOnSelect>
+      <Navbar bg='myred' variant='dark' expand='lg' collapseOnSelect>
         <Container>
 
-          <LinkContainer to='/'>
-            <Navbar.Brand>
-              <Image id="logo" src="../PPNGL.webp" roundedCircle responsive fluid alt="Logo" />
-              <span className='px-3'>PPNGLTD</span>
-            </Navbar.Brand>
+
+          <Nav className='mr-auto'>
 
 
-          </LinkContainer>
-          <Navbar.Toggle aria-controls='basic-navbar-nav' />
-          <Navbar.Collapse id='basic-navbar-nav'>
-            {/* <Route render={({ history }) => <SearchBox history={history} />} /> */}
-            <Nav className='ml-auto'>
-              {/* <LinkContainer to='/email'>
-                <Nav.Link>
-                  <i className='fas fa-shopping-cart'></i> Email
-                </Nav.Link>
-              </LinkContainer> */}
+            <LinkContainer to='/'>
+              <NavDropdown.Item>Home</NavDropdown.Item>
+            </LinkContainer>
 
-              <LinkContainer to='/cart'>
-                <Nav.Link>
-                  <i className='fas fa-shopping-cart'></i> About
-                </Nav.Link>
-              </LinkContainer>
-              {/* <LinkContainer to='/contacts'>
-                <Nav.Link>
-                  <i className='fas fa-shopping-cart'></i>Contacts
-                </Nav.Link>
-              </LinkContainer> */}
-              {/* {userInfo ? (
-                <NavDropdown title={userInfo.name} id='username'>
-                  <LinkContainer to='/profile'>
-                    <NavDropdown.Item>Profile</NavDropdown.Item>
-                  </LinkContainer>
-                  <NavDropdown.Item onClick={logoutHandler}>
-                    Logout
-                  </NavDropdown.Item>
-                </NavDropdown>
-              ) : (
-                <LinkContainer to='/login'>
-                  <Nav.Link>
-                    <i className='fas fa-user'></i> Sign In
-                  </Nav.Link>
-                </LinkContainer>
-              )} */}
-              {/* {userInfo && userInfo.isAdmin && (
-                <NavDropdown title='Admin' id='adminmenu'>
-                  <LinkContainer to='/admin/userlist'>
-                    <NavDropdown.Item>Users</NavDropdown.Item>
-                  </LinkContainer>
-                  <LinkContainer to='/admin/productlist'>
-                    <NavDropdown.Item>Products</NavDropdown.Item>
-                  </LinkContainer>
-                  {/* <LinkContainer to='/admin/orderlist'>
-                    <NavDropdown.Item>Orders</NavDropdown.Item>
-                  </LinkContainer> 
-                </NavDropdown>
-              )} */}
-              {userInfo && userInfo.isAdmin && (
-                <NavDropdown title='Contacts' id='adminmenu'>
-                  <LinkContainer to='/contacts'>
-                    <NavDropdown.Item>Contact</NavDropdown.Item>
-                  </LinkContainer>
-                  <LinkContainer to='/email'>
-                    <NavDropdown.Item>Email</NavDropdown.Item>
-                  </LinkContainer>
-                  {/* <LinkContainer to='/admin/orderlist'>
-                    <NavDropdown.Item>Orders</NavDropdown.Item>
-                  </LinkContainer> */}
-                </NavDropdown>
-              )}
+            <LinkContainer to='/about'>
+              <NavDropdown.Item>About Us</NavDropdown.Item>
+            </LinkContainer>
+            <LinkContainer to='/residential'>
+              <NavDropdown.Item>Residential</NavDropdown.Item>
+            </LinkContainer>
 
-              {userInfo && userInfo.isAdmin && (
-                <NavDropdown title='Valuation' id='adminmenu'>
-                  <LinkContainer to='/propertyvaluers'>
-                    <NavDropdown.Item>Property Valuers</NavDropdown.Item>
-                  </LinkContainer>
-                  <LinkContainer to='/propertyservice'>
-                    <NavDropdown.Item>Property Valuation Service</NavDropdown.Item>
-                  </LinkContainer>
-                  {/* <LinkContainer to='/admin/orderlist'>
-                    <NavDropdown.Item>Orders</NavDropdown.Item>
-                  </LinkContainer> */}
-                </NavDropdown>
-              )}
-            </Nav>
-          </Navbar.Collapse>
+
+            <LinkContainer to='/commercial'>
+              <NavDropdown.Item>Commercial</NavDropdown.Item>
+            </LinkContainer>
+            <LinkContainer to='/contacts'>
+              <NavDropdown.Item>Contact Us</NavDropdown.Item>
+            </LinkContainer>
+            <LinkContainer to='/vaccant'>
+              <NavDropdown.Item>Vaccant Land</NavDropdown.Item>
+            </LinkContainer>
+            <LinkContainer to='/otherservices'>
+              <NavDropdown.Item>Other Services</NavDropdown.Item>
+            </LinkContainer>
+
+
+          </Nav>
+
         </Container>
       </Navbar>
     </header>

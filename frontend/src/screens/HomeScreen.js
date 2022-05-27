@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
-import { Row, Col } from 'react-bootstrap'
+import { Row, Col, Image, Card, CardGroup } from 'react-bootstrap'
 import Product from '../components/Product'
 import Message from '../components/Message'
 import Loader from '../components/Loader'
@@ -26,35 +26,45 @@ const HomeScreen = ({ match }) => {
 
   return (
     <>
-      <Meta />
-      {!keyword ? (
-        <ProductCarousel />
-      ) : (
-        <Link to='/' className='btn btn-light'>
-          Go Back
-        </Link>
-      )}
-      <h1>Provided Services</h1>
-      {loading ? (
-        <Loader />
-      ) : error ? (
-        <Message variant='danger'>{error}</Message>
-      ) : (
-        <>
-          <Row>
-            {products.map((product) => (
-              <Col key={product._id} sm={12} md={6} lg={4} xl={3}>
-                <Product product={product} />
-              </Col>
-            ))}
-          </Row>
-          <Paginate
-            pages={pages}
-            page={page}
-            keyword={keyword ? keyword : ''}
-          />
-        </>
-      )}
+      <img id="" src="ppngltd-banner.png" rounded responsive fluid alt="Logo" />
+
+      <CardGroup className='py-3'>
+        <Card bg='info'>
+          <Card.Body>
+            <Card.Title>Property Valuation</Card.Title>
+            <Card.Text>
+              We provide property Valuation and advice.
+            </Card.Text>
+          </Card.Body>
+          <Card.Footer>
+            {/* <small className="text-muted">Last updated 3 mins ago</small> */}
+          </Card.Footer>
+        </Card>
+        <Card bg='dark'>
+          <Card.Body>
+            <Card.Title>Expertise</Card.Title>
+            <Card.Text>
+              Expert local knowledge and experience
+              
+            </Card.Text>
+          </Card.Body>
+          <Card.Footer>
+            {/* <small className="text-muted">Last updated 3 mins ago</small> */}
+          </Card.Footer>
+        </Card>
+        <Card bg='danger'>
+          <Card.Body>
+            <Card.Title>Location</Card.Title>
+            <Card.Text>
+              Any property type in and location in Papua New Guinea.
+            </Card.Text>
+          </Card.Body>
+          <Card.Footer>
+            {/* <small className="text-muted">Last updated 3 mins ago</small> */}
+          </Card.Footer>
+        </Card>
+      </CardGroup>
+
     </>
   )
 }
