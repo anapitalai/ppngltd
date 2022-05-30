@@ -12,6 +12,7 @@ import CommercialScreen from './screens/CommercialScreen'
 import OtherservicesScreen from './screens/OtherservicesScreen'
 import VaccantlandScreen  from './screens/VaccantlandScreen'
 import ResidentialScreen from './screens/ResidentialScreen'
+import ObsidianEmailScreen from './screens/ObsidianEmailScreen'
 
 const App = () => {
   return (
@@ -23,6 +24,8 @@ const App = () => {
 
           <Route path='/contacts' component={ContactScreen} />
           <Route path='/email' component={EmailScreen} />
+          <Route path='/obsidian-email' component={ObsidianEmailScreen} />
+
           <Route path='/otherservices' component={OtherservicesScreen} />
           <Route path='/residential' component={ResidentialScreen} />
           <Route path='/vaccant' component={VaccantlandScreen} />

@@ -16,24 +16,12 @@ const ResidentialScreen = ({ match, location, history }) => {
   const cart = useSelector((state) => state.cart)
   const { cartItems } = cart
 
-  useEffect(() => {
-    if (productId) {
-      dispatch(addToCart(productId, qty))
-    }
-  }, [dispatch, productId, qty])
 
-  const removeFromCartHandler = (id) => {
-    dispatch(removeFromCart(id))
-  }
-
-  const checkoutHandler = () => {
-    history.push('/login?redirect=shipping')
-  }
 
   return (
     <Row>
       <Col md={12}>
-        <h1>Valuation Service</h1>
+        <h1>Residential Service</h1>
         {/* <img id="" src="residential.png" rounded responsive fluid alt="Logo" /> */}
         <ProductCarousel />
 

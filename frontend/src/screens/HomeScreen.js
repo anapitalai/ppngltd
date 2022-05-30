@@ -26,10 +26,10 @@ const HomeScreen = ({ match }) => {
 
   return (
     <>
-      <img id="" src="ppngltd-banner.png" rounded responsive fluid alt="Logo" />
+      <Image id="" src="ppngltd-banner.png" rounded responsive fluid alt="Logo" />
 
       <CardGroup className='py-3'>
-        <Card bg='info'>
+        <Card bg='primary'>
           <Card.Body>
             <Card.Title>Property Valuation</Card.Title>
             <Card.Text>
@@ -37,10 +37,9 @@ const HomeScreen = ({ match }) => {
             </Card.Text>
           </Card.Body>
           <Card.Footer>
-            {/* <small className="text-muted">Last updated 3 mins ago</small> */}
           </Card.Footer>
         </Card>
-        <Card bg='dark'>
+        <Card bg='warning'>
           <Card.Body>
             <Card.Title>Expertise</Card.Title>
             <Card.Text>
@@ -49,7 +48,6 @@ const HomeScreen = ({ match }) => {
             </Card.Text>
           </Card.Body>
           <Card.Footer>
-            {/* <small className="text-muted">Last updated 3 mins ago</small> */}
           </Card.Footer>
         </Card>
         <Card bg='danger'>
@@ -60,7 +58,6 @@ const HomeScreen = ({ match }) => {
             </Card.Text>
           </Card.Body>
           <Card.Footer>
-            {/* <small className="text-muted">Last updated 3 mins ago</small> */}
           </Card.Footer>
         </Card>
       </CardGroup>

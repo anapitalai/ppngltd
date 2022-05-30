@@ -17,19 +17,6 @@ const AboutScreen = ({ match, location, history }) => {
   const cart = useSelector((state) => state.cart)
   const { cartItems } = cart
 
-  useEffect(() => {
-    if (productId) {
-      dispatch(addToCart(productId, qty))
-    }
-  }, [dispatch, productId, qty])
-
-  const removeFromCartHandler = (id) => {
-    dispatch(removeFromCart(id))
-  }
-
-  const checkoutHandler = () => {
-    history.push('/login?redirect=shipping')
-  }
 
   const services = ['Mortgauge Valuations for Financing', 'Fair Market Valuation for auditing Purposes', 'Stamp Duty Purposes',
     'Rent Reviews for Lease Renewals', 'Building Replacement Costs foro Insurance', 'Portfolio valuation for corporate Bodies',

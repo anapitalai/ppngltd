@@ -19,7 +19,7 @@ const ProductCarousel = () => {
   // }, [dispatch])
 
   return (
-    <Carousel pause='hover' className='bg-myred'>
+    <Carousel pause='hover' className='bg-grey'>
       {products.map((product) => (
         <Carousel.Item key={product._id}>
           <Link to={`/product/${product._id}`}>
