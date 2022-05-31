@@ -29,10 +29,10 @@ const ContactScreen = ({ match, location, history }) => {
         valuation task required by the client.
 
       </p>
-      <LinkContainer to='/obsidian-email'>
+      <LinkContainer to='/email'>
         <Button variant='outline-dark'>Email Us @ support@ppngltd.com</Button>
       </LinkContainer>
-      <Image id="" src="others.png"  className='py-3' rounded responsive fluid alt="Logo" />
+      <Image id="" src="00.webp"  className='py-3' rounded responsive fluid alt="Logo" />
 
     </Row>
 

@@ -24,7 +24,7 @@ const LogoBanner = () => {
 
                         <LinkContainer to=''>
                             <Nav.Link>
-                                <i className='fas fa-phone'></i> <a href="tel:+675 731 349 91">+675 3416368</a>
+                                <i className='fas fa-phone'></i> <a href="tel:+675 341 6368">+675 3416 368</a>
                                 {/* <span>Call (+675) 3416368</span> */}
                                 
                      

@@ -14,7 +14,7 @@ const EmailScreen = () => {
 
 
 <Col md={8}>
-    <h2>Send an Email to PPNG Ltd </h2>
+    <h2>Send an Email to Property PNG Ltd </h2>
     <FormContainer>
 
         {/* </FormContainer><Form action="https://formsubmit.co/support@ppngltd.com" */}

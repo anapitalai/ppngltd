@@ -26,7 +26,7 @@ const HomeScreen = ({ match }) => {
 
   return (
     <>
-      <Image id="" src="ppngltd-banner.png" rounded responsive fluid alt="Logo" />
+      <Image id="" src="ppngltd-banner.webp" rounded responsive fluid alt="Logo" />
 
       <CardGroup className='py-3'>
         <Card bg='primary'>
