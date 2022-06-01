@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
-import { Row, Col, Image, Card, CardGroup } from 'react-bootstrap'
+import { Row, Col, Image, Card, CardGroup,Button } from 'react-bootstrap'
 import Product from '../components/Product'
 import Message from '../components/Message'
 import Loader from '../components/Loader'
@@ -26,10 +26,11 @@ const HomeScreen = ({ match }) => {
 
   return (
     <>
-      <Image id="" src="home_page_scaled.webp" rounded responsive fluid alt="Logo" />
+      <Image id="" src='ppngltd-banner.webp'  srcSet='ppngltd-banner_500.webp 500w,
+            ppngltd-banner_300.webp 300w' rounded responsive fluid alt="Logo" />
 
       <CardGroup className='py-3'>
-        <Card bg='primary'>
+        <Card id='card' bg='primary'>
           <Card.Body>
             <Card.Title>Property Valuation</Card.Title>
             <Card.Text>
@@ -39,7 +40,7 @@ const HomeScreen = ({ match }) => {
           <Card.Footer>
           </Card.Footer>
         </Card>
-        <Card bg='warning'>
+        <Card id='card' bg='warning'>
           <Card.Body>
             <Card.Title>Expertise</Card.Title>
             <Card.Text>
@@ -50,7 +51,7 @@ const HomeScreen = ({ match }) => {
           <Card.Footer>
           </Card.Footer>
         </Card>
-        <Card bg='danger'>
+        <Card id='card' bg='danger'>
           <Card.Body>
             <Card.Title>Location</Card.Title>
             <Card.Text>
@@ -61,7 +62,7 @@ const HomeScreen = ({ match }) => {
           </Card.Footer>
         </Card>
       </CardGroup>
-
+      {/* <Button id='b'>Transition</Button> */}
     </>
   )
 }

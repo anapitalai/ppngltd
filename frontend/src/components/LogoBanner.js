@@ -6,7 +6,7 @@ import { Button, Container, Navbar, NavDropdown, Nav, Image } from 'react-bootst
 const LogoBanner = () => {
     return (
         <header>
-
+ 
             <Navbar bg='white' variant='white' expand='lg' collapseOnSelect>
                 <Container>
 

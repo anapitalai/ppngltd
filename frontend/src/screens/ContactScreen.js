@@ -22,7 +22,7 @@ const ContactScreen = ({ match, location, history }) => {
 
       <h1>Contacts Us</h1>
       <p>
-        I f you need to have your property valued in PNG, and if you have any questions about our valuation process
+        If you need to have your property valued in PNG, and if you have any questions about our valuation process
         or would like to receive a quote, please reach out to us via email at support@propertypngltd.com or by calling
         us directly on (+675) 341 6368.
         Our fees are competitive and are dependent on the nature of the work and time involved to carry out the
@@ -32,7 +32,8 @@ const ContactScreen = ({ match, location, history }) => {
       <LinkContainer to='/email'>
         <Button variant='outline-dark'>Email Us @ support@ppngltd.com</Button>
       </LinkContainer>
-      <Image id="" src="00.webp"  className='py-3' rounded responsive fluid alt="Logo" />
+      <Image id="" src='land.webp'  srcSet='land_500.webp 500w,
+            land_300.webp 300w' rounded responsive fluid alt="Logo" />
 
     </Row>
 
