@@ -147,3 +147,7 @@ form > div > textarea {
 #carousel-img{
   border-radius:15%;
 }
+
+CardGroup:hover{
+  font-size: 100rem;
+}
