@@ -9,8 +9,8 @@ const OtherservicesScreen = () => {
         <>
             <h1>Other Services</h1>
             <div>
-            <Image  id='images' src='bg.jpg'  srcSet='bg.jpg 500w,
-            bg.jpg 300w' rounded responsive fluid alt="Logo" />
+            <Image  id='images' src='bg_crop.webp'  srcSet='bg_crop_1000.webp 1000w,
+            bg_crop_500.webp  500w, bg_300.webp 300w' rounded responsive fluid alt="Logo" />
 
                 <p>Our sister company Obsidian Conveyancing can assist
                     you with all the real estate Conveyancing needs
