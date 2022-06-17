@@ -27,7 +27,7 @@ const Header = () => {
           <Nav className='mr-auto'>
 
 
-            <LinkContainer to='/'>
+            <LinkContainer exact to='/'>
               <NavDropdown.Item>Home</NavDropdown.Item>
             </LinkContainer>
 

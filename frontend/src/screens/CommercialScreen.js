@@ -1,13 +1,13 @@
 import React from 'react'
 import { Col, Row } from 'react-bootstrap'
-import ProductCarousel from '../components/ProductCarousel'
+import CommercialCarousel from '../components/CommercialCarousel'
 
 const CommercialScreen = () => {
     return (
         <>
             <h1>Commercial and Industrial</h1>
             <Col>
-                <ProductCarousel />
+                <CommercialCarousel />
                 <Row>
                     Property PNG valuers can assist you with all your industrial/commercial property valuation in PNG. We have
                     extensive experience in properties such small office to large multi-storey developments and industrial sites.

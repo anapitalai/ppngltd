@@ -10,7 +10,7 @@ import EmailScreen from './screens/EmailScreen'
 import LogoBanner from './components/LogoBanner'
 import CommercialScreen from './screens/CommercialScreen'
 import OtherservicesScreen from './screens/OtherservicesScreen'
-import VaccantlandScreen  from './screens/VaccantlandScreen'
+import VaccantlandScreen from './screens/VaccantlandScreen'
 import ResidentialScreen from './screens/ResidentialScreen'
 import ObsidianEmailScreen from './screens/ObsidianEmailScreen'
 
@@ -21,7 +21,7 @@ const App = () => {
       <Header />
       <main className='py-3'>
         <Container>
-
+          <Route path='/' component={HomeScreen} exact />
           <Route path='/contacts' component={ContactScreen} />
           <Route path='/email' component={EmailScreen} />
           <Route path='/obsidian-email' component={ObsidianEmailScreen} />
@@ -31,14 +31,8 @@ const App = () => {
           <Route path='/vaccant' component={VaccantlandScreen} />
           <Route path='/commercial' component={CommercialScreen} />
           <Route path='/about' component={AboutScreen} />
-          <Route path='/search/:keyword' component={HomeScreen} exact />
-          <Route path='/page/:pageNumber' component={HomeScreen} exact />
-          <Route
-            path='/search/:keyword/page/:pageNumber'
-            component={HomeScreen}
-            exact
-          />
-          <Route path='/' component={HomeScreen} exact />
+
+
         </Container>
       </main>
       <Footer />

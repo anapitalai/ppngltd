@@ -11,8 +11,8 @@ const VaccantlandScreen = () => {
                 We also provide “On Completion” valuations for individuals buying a house and land package for Mortgage
                 Purposes.
             </p>
-            <Image id="" src='land.webp'  srcSet='land_500.webp 500w,
-            land_300.webp 300w' rounded responsive fluid alt="Logo" />
+            <Image id="images" src='land/land_crop.webp' srcSet='land/land_crop_1000.webp 1000w,land/land_crop_500.webp 500w,
+            land/land_crop_300.webp 300w' rounded responsive fluid alt="Logo" />
         </>
     )
 

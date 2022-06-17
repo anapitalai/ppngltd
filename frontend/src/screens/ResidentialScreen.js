@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { Row, Col, ListGroup, Image, Form, Button, Card, CardGroup } from 'react-bootstrap'
 import Message from '../components/Message'
 import { addToCart, removeFromCart } from '../actions/cartActions'
-import ProductCarousel from '../components/ProductCarousel'
+import ResidentialCarousel from '../components/ResidentialCarousel'
 
 const ResidentialScreen = ({ match, location, history }) => {
   const productId = match.params.id
@@ -23,7 +23,7 @@ const ResidentialScreen = ({ match, location, history }) => {
       <Col md={12}>
         <h1>Residential Service</h1>
         {/* <img id="" src="residential.png" rounded responsive fluid alt="Logo" /> */}
-        <ProductCarousel />
+        <ResidentialCarousel />
 
       </Col>
       If you need to know the value of your home or investment residential property?

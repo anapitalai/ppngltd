@@ -18,9 +18,9 @@ const AboutScreen = ({ match, location, history }) => {
   const { cartItems } = cart
 
 
-  const services = ['Mortgauge Valuations for Financing', 'Fair Market Valuation for auditing Purposes', 'Stamp Duty Purposes',
-    'Rent Reviews for Lease Renewals', 'Building Replacement Costs foro Insurance', 'Portfolio valuation for corporate Bodies',
-    'Valauation for Pre-purchase', 'Retrospect Aceesment', 'Feaseability Assessment of property Development', 'vaulatuion for Coponsatation for comulsary acquisutin',
+  const services = ['Mortgage Valuations for Financing', 'Fair Market Valuation for auditing Purposes', 'Stamp Duty Purposes',
+    'Rent Reviews for Lease Renewals', 'Building Replacement Costs for Insurance', 'Portfolio valuation for Corporate Bodies',
+    'Valauation for Pre-purchase', 'Retrospect Accessment', 'Feasibility Assessment of Property Development', 'Vaulatuion for Compensation for Compulsary Acquisition',
     'Asset Register Development']
 
   return (
@@ -51,7 +51,6 @@ const AboutScreen = ({ match, location, history }) => {
         <p>
           Property PNG Ltd specialises in a diverse range of property valuation transactions and it is dedicated to providing a prompt and professional service. To ensure this commitment,
           the Company ensures compliance to International Valuation Standards and Generally Accepted Valuation Principles.
-          Compensation Assessments
           We can provide compensation assessments for compulsory acquisitions for Private Individuals and Government Authorities and Corporations.
         </p>
 
