@@ -26,43 +26,42 @@ const HomeScreen = ({ match }) => {
 
   return (
     <>
-      <Image id="" src='ppngltd-banner.webp'  srcSet='ppngltd-banner_500.webp 500w,
-            ppngltd-banner_300.webp 300w' rounded responsive fluid alt="Logo" />
+      <Image id="" src='ppngltd-banner.webp'  srcSet='ppngltd-banner.webp 1000w,ppngltd-banner_
+            ppngltd-banner_500.webp 500w ppngltd-banner_300.webp 300w' rounded responsive fluid alt="Logo" />
 
       <CardGroup className='py-3'>
-        <Card id='card' bg='primary'>
+        <Card id='bg-red'>
           <Card.Body>
-            <Card.Title>Property Valuation</Card.Title>
+            {/* <Card.Title>Property Valuation</Card.Title> */}
             <Card.Text>
-              We provide property Valuation and advice.
+              We provide property valuations and advice
             </Card.Text>
           </Card.Body>
-          <Card.Footer>
-          </Card.Footer>
+          {/* <Card.Footer>
+          </Card.Footer> */}
         </Card>
-        <Card id='card' bg='warning'>
+        <Card id='bg-red'>
           <Card.Body>
-            <Card.Title>Expertise</Card.Title>
+            {/* <Card.Title>Expertise</Card.Title> */}
             <Card.Text>
-              Expert local knowledge and experience
+              Expert local knowledge & experience
               
             </Card.Text>
           </Card.Body>
-          <Card.Footer>
-          </Card.Footer>
+          {/* <Card.Footer>
+          </Card.Footer> */}
         </Card>
-        <Card id='card' bg='danger'>
+        <Card id='bg-red'>
           <Card.Body>
-            <Card.Title>Location</Card.Title>
+            {/* <Card.Title>Location</Card.Title> */}
             <Card.Text>
-              Any property type in and location in Papua New Guinea.
+              Any property type in any location in Papua New Guinea(PNG)
             </Card.Text>
           </Card.Body>
-          <Card.Footer>
-          </Card.Footer>
+          {/* <Card.Footer>
+          </Card.Footer> */}
         </Card>
       </CardGroup>
-      {/* <Button id='b'>Transition</Button> */}
     </>
   )
 }

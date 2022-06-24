@@ -13,6 +13,7 @@ import OtherservicesScreen from './screens/OtherservicesScreen'
 import VaccantlandScreen from './screens/VaccantlandScreen'
 import ResidentialScreen from './screens/ResidentialScreen'
 import ObsidianEmailScreen from './screens/ObsidianEmailScreen'
+import ImageModal from './components/ImageModal'
 
 const App = () => {
   return (
@@ -28,9 +29,11 @@ const App = () => {
 
           <Route path='/otherservices' component={OtherservicesScreen} />
           <Route path='/residential' component={ResidentialScreen} />
-          <Route path='/vaccant' component={VaccantlandScreen} />
+          <Route path='/vacant' component={VaccantlandScreen} />
           <Route path='/commercial' component={CommercialScreen} />
           <Route path='/about' component={AboutScreen} />
+
+          <Route path='/modal' component={ImageModal} />
 
 
         </Container>

@@ -13,7 +13,7 @@ const LogoBanner = () => {
                     <LinkContainer to='/'>
                         <Navbar.Brand>
                             <Image id="logo" src="../PPNGLL.webp" roundedCircle responsive fluid alt="Logo" />
-                            <span className='px-3'>PPNGLTD</span>
+                            {/* <span className='px-3'>PPNGLTD</span> */}
                         </Navbar.Brand>
                     </LinkContainer>
 
@@ -23,9 +23,8 @@ const LogoBanner = () => {
                     <Nav className='ml-auto'>
 
                         <LinkContainer to=''>
-                            <Nav.Link>
-                                <i className='fas fa-phone'></i> <a href="tel:+675 341 6368">+675 3416 368</a>
-                                {/* <span>Call (+675) 3416368</span> */}
+                            <Nav.Link   id='bg-yellow'>
+                                <i className='fas fa-phone'></i> <a   id='bg-yellow' href="tel:+675 341 6368">+675 3416 368</a>
                                 
                      
                             </Nav.Link>

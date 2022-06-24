@@ -24,9 +24,10 @@ const AboutScreen = ({ match, location, history }) => {
     'Asset Register Development']
 
   return (
-    <Row>
+    <Row  id='bg-yellow'>
       <Col md={12}>
         <h1>About the Company</h1>
+      
         <p>
           Property PNG Limited is a PNG owned Property Valuation and Consultancy Practice.
 
@@ -53,6 +54,7 @@ const AboutScreen = ({ match, location, history }) => {
           the Company ensures compliance to International Valuation Standards and Generally Accepted Valuation Principles.
           We can provide compensation assessments for compulsory acquisitions for Private Individuals and Government Authorities and Corporations.
         </p>
+        
 
       </Col>
 
