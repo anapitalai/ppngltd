@@ -12,7 +12,7 @@ const LogoBanner = () => {
 
                     <LinkContainer to='/'>
                         <Navbar.Brand>
-                            <Image id="logo" src="../PPNGLL.webp" roundedCircle responsive fluid alt="Logo" />
+                            <Image id="logo" src="../logo.gif" responsive fluid alt="Logo" />
                             {/* <span className='px-3'>PPNGLTD</span> */}
                         </Navbar.Brand>
                     </LinkContainer>

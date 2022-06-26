@@ -5,6 +5,7 @@ import { Row, Col, ListGroup, Image, Form, Button, Card, CardGroup, Container } 
 import Message from '../components/Message'
 import { addToCart, removeFromCart } from '../actions/cartActions'
 import ResidentialCarousel from '../components/ResidentialCarousel'
+import Fade from 'react-reveal/Fade'
 
 const ResidentialScreen = ({ match, location, history }) => {
   const productId = match.params.id
@@ -22,23 +23,27 @@ const ResidentialScreen = ({ match, location, history }) => {
     <Row>
       <Col md={12}>
         <Container>
-          <figure className='position-relative'>
-          <img className="image-items" src="hotel/hotel_crop_500.webp" className='img-fluid' rounded responsive fluid alt="Logo" />
-          <img className="image-items" src="residential/res_crop_500.webp" className='img-fluid' rounded responsive fluid alt="Logo" />
-          <img className="image-items" src="residential/residential_crop_500.webp" className='img-fluid' rounded responsive fluid alt="Logo" />
-          <figcaption id='bg-yellow'>
-            Residential
-          </figcaption>
-          </figure>
+          <Fade right cascade>
+            <figure className='position-relative'>
+              <img className="image-items" src="hotel/hotel_crop_500.webp" className='img-fluid' rounded responsive fluid alt="Logo" />
+              {/* <img className="image-items" src="residential/res_crop_500.webp" className='img-fluid' rounded responsive fluid alt="Logo" /> */}
+              <img className="image-items" src="residential/residential_crop_500.webp" className='img-fluid' rounded responsive fluid alt="Logo" />
+              <figcaption id='bg-yellow'>
+                Residential
+              </figcaption>
+            </figure>
+          </Fade>
         </Container>
 
       </Col>
       <div id='bg-yellow'>
-     <b> If you need to know the value of your home or investment residential property?</b>
-      We provide independent residential property valuation services to owners and buyer of property (improved or
-      vacant land), landlords and professional service providers.
-      As a panel valuer for SOE’s in PNG, we have an in-depth knowledge of each specific property sub-market in
-      PNG. At Property PNG, we can help with the valuation you need for your residential property asset
+        <p align="justify">
+          <b> If you need to know the value of your home or investment residential property</b>
+          We provide independent residential property valuation services to owners and buyer of property (improved or
+          vacant land), landlords and professional service providers.
+          {/* As a panel valuer for SOE’s in PNG, we have an in-depth knowledge of each specific property sub-market in
+          PNG. At Property PNG, we can help with the valuation you need for your residential property asset */}
+        </p>
       </div>
     </Row >
   )

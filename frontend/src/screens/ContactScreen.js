@@ -5,6 +5,7 @@ import { Row, Col, ListGroup, Image, Form, Button, Card,Container } from 'react-
 import Message from '../components/Message'
 import { addToCart, removeFromCart } from '../actions/cartActions'
 import { LinkContainer } from 'react-router-bootstrap'
+import Jump from 'react-reveal/Jump';
 
 const ContactScreen = ({ match, location, history }) => {
   const productId = match.params.id
@@ -20,7 +21,7 @@ const ContactScreen = ({ match, location, history }) => {
   return (
     <Row>
       <div id='bg-yellow'>
-        <h1>Contacts Us</h1>
+        <h1>Contact Us</h1>
 
         <p>
           If you need to have your property valued in PNG, and if you have any questions about our valuation process
@@ -37,8 +38,10 @@ const ContactScreen = ({ match, location, history }) => {
       <LinkContainer to='/email'>
             <Button variant='outline-dark'>Email Us @ support@propertypngltd.com</Button>
           </LinkContainer>
+         
       <Image id="" src='con.jpeg' srcSet='con.jpeg 1000w,con.jpeg 500w,
             land/land_crop_300.webp 300w' rounded responsive fluid alt="Logo" />
+            
       </Container>
     </Row>
 

@@ -40,7 +40,7 @@ const Header = () => {
 
 
             <LinkContainer to='/commercial'>
-              <NavDropdown.Item>Commercial|Industrial</NavDropdown.Item>
+              <NavDropdown.Item>Commercial & Industrial</NavDropdown.Item>
             </LinkContainer>
             <LinkContainer to='/vacant'>
               <NavDropdown.Item>Vacant Land</NavDropdown.Item>
