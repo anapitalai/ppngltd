@@ -40,7 +40,7 @@ const ResidentialScreen = ({ match, location, history }) => {
         <h1>Residential Property Valuation</h1>
         <p align="justify">
           If you need to know the value of your home or investment residential property.
-           We provide independent residential property valuation services to owners and buyer of property (improved or
+           We provide independent residential property valuation services to owners and buyers of property (improved or
           vacant land), landlords and professional service providers.
         </p>
       </div>
