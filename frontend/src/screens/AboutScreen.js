@@ -20,7 +20,7 @@ const AboutScreen = ({ match, location, history }) => {
 
   const services = ['Mortgage Valuations for Financing Purposes', 'Fair Market Valuation for Auditing Purposes', 'Stamp Duty Purposes',
     'Rent Reviews for Lease Renewals', 'Building Replacement Costs for Insurance', 'Portfolio valuation for Corporate Bodies',
-    'Valauation for Pre-purchase', 'Retrospect Assessment', 'Feasibility Assessment of Property Development', 'Valuation for Compensation for Compulsory Acquisition',
+    'Valuation for Pre-purchase', 'Retrospect Assessment', 'Feasibility Assessment of Property Development', 'Valuation for Compensation for Compulsory Acquisition',
     'Asset Register Development']
 
   return (
@@ -34,7 +34,6 @@ const AboutScreen = ({ match, location, history }) => {
           The company was incorporated on 23rd February, 2010. The company provides independent property valuation and real estate consultancy services to meet the individual requirements of each client. Property PNG Ltd specialises in a diverse range of property valuation transactions and it is dedicated to providing a prompt and professional service. To ensure this commitment,
           the company ensures compliance to International Valuation Standards and Generally Accepted Valuation Principles.
 
-          Property PNG Limited is a PNG owned Property Valuation and Consultancy Practice.
 
         </p>
         <p align="justify">
