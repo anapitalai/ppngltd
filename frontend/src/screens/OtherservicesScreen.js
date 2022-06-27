@@ -20,7 +20,7 @@ const OtherservicesScreen = () => {
                     </figcaption>
                 </figure>
             </Fade>
-            <div id='bg-yellow'>
+            <div id='bg-yellow' className='fix-pad'>
                 <h1>Conveyancing</h1>
                 <div>
 

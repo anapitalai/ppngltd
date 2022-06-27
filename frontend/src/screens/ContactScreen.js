@@ -20,7 +20,7 @@ const ContactScreen = ({ match, location, history }) => {
 
   return (
     <Row>
-      <div id='bg-yellow'>
+      <div id='bg-yellow' className='fix-pad'>
         <h1>Contact Us</h1>
 
         <p>
