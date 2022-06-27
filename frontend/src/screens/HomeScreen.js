@@ -48,7 +48,6 @@ const HomeScreen = ({ match }) => {
             {/* <Card.Title>Expertise</Card.Title> */}
             <Card.Text>
               Expert local knowledge & experience
-
             </Card.Text>
           </Card.Body>
           {/* <Card.Footer>
@@ -58,7 +57,7 @@ const HomeScreen = ({ match }) => {
           <Card.Body>
             {/* <Card.Title>Location</Card.Title> */}
             <Card.Text>
-              Any property type in any location in Papua New Guinea(PNG)
+              Any property type in any location in Papua New Guinea (PNG)
             </Card.Text>
           </Card.Body>
           {/* <Card.Footer>
