@@ -36,7 +36,7 @@ const CommercialScreen = () => {
                     <h1>Commercial and Industrial Property Valuation</h1>
                     <p align='justify'>
                         Property PNG valuers can assist you with all your industrial/commercial property valuation in PNG. We have
-                        extensive experience in valuing properties such as small office to large multi-storey developments and industrial sites.
+                        extensive experience in valuing properties such as small offices to large multi-storey developments and industrial sites.
                         Industrial/commercial property valuations is solely business related and as such are approached differently to
                         residential property valuations.
                     </p>
