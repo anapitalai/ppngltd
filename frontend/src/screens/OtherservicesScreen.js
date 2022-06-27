@@ -29,13 +29,13 @@ const OtherservicesScreen = () => {
                         in PNG. Transferring property ownership from one
                         party to another can be a complicated process however
                         our team is able to assist and guide you through the
-                        process in a friendly, fast and efficient manner. We are
-                        an experienced real estate Conveyancer who assist with
+                        process in a friendly, fast and efficient manner. We have
+                        an experienced real estate conveyancer who can assist with
                         a range of issues related to property, including updating
                         of titles, title searches and title replacements.</p>
 
                     <p align="justify"> The team will make conveyancing processing as easy as
-                        possible.If you have and questions or would like  a quote,
+                        possible. If you have and questions or would like a quote,
                         please reach out to us via email <email>support@obsidianconveyancing.com</email> or
                         by calling us directly on  <a href="tel:+675 341 6367">+675 341 6367</a></p>
                 </div>
