@@ -29,8 +29,8 @@ const OtherservicesScreen = () => {
                         in PNG. Transferring property ownership from one
                         party to another can be a complicated process however
                         our team is able to assist and guide you through the
-                        process in a friendly, fast and efficient manner. We have
-                        an experienced real estate conveyancer who can assist with
+                        process in a friendly, fast and efficient manner. We are
+                        experienced real estate conveyancers who can assist with
                         a range of issues related to property, including updating
                         of titles, title searches and title replacements.</p>
 
