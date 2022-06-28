@@ -35,7 +35,7 @@ const OtherservicesScreen = () => {
                         of titles, title searches and title replacements.</p>
 
                     <p align="justify"> The team will make conveyancing processing as easy as
-                        possible. If you have and questions or would like a quote,
+                        possible. If you have any questions or would like a quote,
                         please reach out to us via email <email>support@obsidianconveyancing.com</email> or
                         by calling us directly on  <a href="tel:+675 341 6367">+675 341 6367</a></p>
                 </div>
