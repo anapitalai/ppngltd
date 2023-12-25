@@ -22,13 +22,13 @@ const LogoBanner = () => {
 
                     <Nav className='ml-auto'>
 
-                        <LinkContainer to=''>
+                        {/* <LinkContainer to=''>
                             <Nav.Link   id='bg-yellow'>
                                 <i className='fas fa-phone'></i> <a   id='bg-yellow' href="tel:+675 341 6368">+675 3416 368</a>
                                 
                      
                             </Nav.Link>
-                        </LinkContainer>
+                        </LinkContainer> */}
 
 
                     </Nav>
